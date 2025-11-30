@@ -38,3 +38,4 @@ Reload configuration with `hyprctl reload` or the keybind ALT+SHIFT+C.
 
 - Hyprland wiki: https://wiki.hypr.land/
 - Configuration reference: https://wiki.hypr.land/Configuring/
+- Update the CLAUDE.md file when changing the hypr configuration.

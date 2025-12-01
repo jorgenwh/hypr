@@ -9,14 +9,16 @@ This is a Hyprland configuration directory for a dual-monitor desktop setup. Hyp
 ## Files
 
 - `hyprland.conf` - Main compositor configuration (monitors, keybindings, appearance, window rules)
-- `hyprlock.conf` - Lock screen configuration for hyprlock
+- `hyprlock.conf` - Lock screen configuration (minimal black background with centered input field)
 - `hyprpaper.conf` - Wallpaper configuration (uses moon.png)
 
 ## Key Configuration Details
 
-**Monitors**: Dual-monitor setup with DP-1 (3440x1440@100Hz, ultrawide) as primary and HDMI-A-1 (2560x1440@144Hz) as secondary.
+**Monitors**: Dual-monitor setup with DP-1 (3440x1440@100Hz, ultrawide) as primary and HDMI-A-1 (2560x1440@144Hz) positioned to the right.
 
-**Layout**: Master layout with 50% master factor, new windows spawn as slaves.
+**Layout**: Master layout with 50% master factor, new windows spawn as slaves, master on left.
+
+**Appearance**: No gaps, 2px border, 5px rounding. Window/workspace animations disabled for snappy feel.
 
 **Input**: Norwegian keyboard layout (`kb_layout = no`), fast key repeat (135ms delay, 50 rate).
 
@@ -38,6 +40,10 @@ This is a Hyprland configuration directory for a dual-monitor desktop setup. Hyp
 - File manager: dolphin
 - Launcher: wofi
 - Browser: google-chrome-stable
+
+**External Dependencies**:
+- Screenshot script at `~/.scripts/sc` (bound to ALT+P)
+- playerctl for media control
 
 ## Testing Changes
 
